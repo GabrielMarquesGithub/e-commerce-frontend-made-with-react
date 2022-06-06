@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="a" x1="28.899" x2="48.939" y1="60.53" y2="80.37" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00732d" offset=".24"/>
+<stop stop-color="#0aff6d" offset="1"/>
+</linearGradient>
+<linearGradient id="b" x1="52.097" x2="68.481" y1="108.26" y2="96.703" gradientTransform="matrix(-1.4755 0 0 1.4755 116.23 -82.597)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#007c33" offset=".17094"/>
+<stop stop-color="#15bd59" offset=".56393"/>
+<stop stop-color="#2aff80" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(-12.485 29.462)">
+<g transform="matrix(5.8843 0 0 5.8843 -72.039 -339.72)">
+<g transform="translate(-2.4499)">
+<text transform="matrix(.93723 0 0 .99589 -1.5193 13.176)" x="21.145964" y="84.531525" fill="url(#a)" font-family="'Franklin Gothic Heavy'" font-size="49.389px" font-weight="bold" letter-spacing=".014246px" stroke-width="4.14" style="inline-size:43.3973;line-height:0.1;white-space:pre" xml:space="preserve"><tspan x="21.145964" y="84.531525">C</tspan></text>
+<path d="m51.971 55.721c-6.8823 5.5919-14.197 2.0433-19.866 3.3374-2.5459 0.18728-4.7538 1.3886-6.9049 2.76-0.98677 1.3019-5.5693 3.0796-5.1915 12.608-1.913 3.255-2.7383 6.4654-2.424 10.57 1.2746 0.41305 3.3733 0.83772 4.9101-0.3296 0.44544-7.8771 3.8698-11.507 9.0587-13.403 4.666-1.1991 13.895-4.6214 16.345-9.4458-9.835 7.9217-17.196 5.1282-24.934 10.274 2.0931-2.5768 5.5484-3.0682 5.862-6.1296 0.20659 1.004-0.28032 1.7573-0.84228 3.3348 4.5332-0.80474 5.9134-2.5652 6.7835-4.7859-0.12512 1.3291-0.29936 2.2062-1.3437 3.3064 6.3627-0.9427 7.4129-2.8812 8.216-5 0.22517 1.4207-0.6267 2.3168-0.68821 2.7591 8.5556-4.2838 9.2507-7.682 11.018-9.8567z" fill="url(#b)"/>
+</g>
+</g>
+</g>
+</svg>
