@@ -7,7 +7,6 @@ interface IHomeItemAside {
 }
 
 const HomeItemAside = ({ title, text, imgSRC }: IHomeItemAside) => {
-  console.log(imgSRC);
   return (
     <HomeItemAsideContainer>
       <TextContainerLeft>

@@ -6,8 +6,35 @@ import { ReactComponent as TitleNav } from "../../assets/svgs/title.svg";
 import { color } from "../../assets/color";
 
 // Styles para a logo
-export const LogoContainer = styled(Link)``;
+export const LogoContainer = styled(Link)`
+  position: relative;
+  border-radius: 30px;
+  padding: 5px;
+  border: 5px solid ${color.verdeEscuro};
+  transition: border 200ms ease-in-out;
+  &::after {
+    background-color: ${color.dark};
+    position: absolute;
+    content: "";
+    z-index: 0;
+    left: -5px;
+    top: -5px;
+    width: 220px;
+    height: 74px;
+    transition: width 300ms ease-in-out;
+  }
+  &:hover {
+    transition: border 100ms ease-in-out 400ms;
+    border: 5px solid ${color.verdeClaro};
+    ::after {
+      transition: width 500ms ease-in-out;
+      width: 0px;
+    }
+  }
+`;
 export const LogoStyle = styled(TitleNav)`
+  position: relative;
+  z-index: 1;
   height: 50px;
   width: 200px;
 `;

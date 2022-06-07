@@ -40,9 +40,9 @@ const Navigation = () => {
             </ButtonLogin>
           </LinkStyle>
           <LinkStyle to="/carrinho">
-            <span className="">
+            <LinkSpan>
               <FontAwesomeIcon icon={faBasketShopping} size="2x" />
-            </span>
+            </LinkSpan>
           </LinkStyle>
         </LinksContainer>
       </NavContainer>
