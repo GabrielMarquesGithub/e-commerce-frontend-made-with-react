@@ -7,7 +7,7 @@ const PRODUTOS_DATA = [
         name: "Açafrão-da-terra",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 125,
         quantity: "100g",
       },
       {
@@ -28,7 +28,7 @@ const PRODUTOS_DATA = [
         name: "Pólen",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 125,
         quantity: "100g",
       },
     ],
@@ -41,7 +41,7 @@ const PRODUTOS_DATA = [
         name: "Urucum",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "300g",
       },
       {
@@ -49,7 +49,7 @@ const PRODUTOS_DATA = [
         name: "Urucum",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 425,
         quantity: "500g",
       },
     ],
@@ -62,7 +62,7 @@ const PRODUTOS_DATA = [
         name: "Mel",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 125,
         quantity: "200g",
       },
       {
@@ -70,7 +70,7 @@ const PRODUTOS_DATA = [
         name: "Mel",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "340g",
       },
       {
@@ -78,7 +78,7 @@ const PRODUTOS_DATA = [
         name: "Mel",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 425,
         quantity: "500g",
       },
     ],
@@ -91,7 +91,7 @@ const PRODUTOS_DATA = [
         name: "Farinha de Mandioca",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 525,
         quantity: "500g",
       },
       {
@@ -99,7 +99,7 @@ const PRODUTOS_DATA = [
         name: "Farinha de Mandioca",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 625,
         quantity: "1kg",
       },
     ],
@@ -112,7 +112,7 @@ const PRODUTOS_DATA = [
         name: "Açucar Mascavo",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 125,
         quantity: "500g",
       },
       {
@@ -120,7 +120,7 @@ const PRODUTOS_DATA = [
         name: "Açucar Mascavo",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "1kg",
       },
     ],
@@ -133,7 +133,7 @@ const PRODUTOS_DATA = [
         name: "Baru",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "250g",
       },
       {
@@ -141,7 +141,7 @@ const PRODUTOS_DATA = [
         name: "Baru",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 525,
         quantity: "500g",
       },
       {
@@ -149,7 +149,7 @@ const PRODUTOS_DATA = [
         name: "Baru",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 625,
         quantity: "1kg",
       },
     ],
@@ -162,7 +162,7 @@ const PRODUTOS_DATA = [
         name: "Araticum",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "200g",
       },
       {
@@ -170,7 +170,7 @@ const PRODUTOS_DATA = [
         name: "Coquinho azedo",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "200g",
       },
       {
@@ -178,7 +178,7 @@ const PRODUTOS_DATA = [
         name: "Cagaita",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "200g",
       },
       {
@@ -186,7 +186,7 @@ const PRODUTOS_DATA = [
         name: "Umbu",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "200g",
       },
       {
@@ -194,7 +194,7 @@ const PRODUTOS_DATA = [
         name: "Mangaba",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "200g",
       },
       {
@@ -202,7 +202,7 @@ const PRODUTOS_DATA = [
         name: "Goiaba",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "200g",
       },
       {
@@ -210,7 +210,7 @@ const PRODUTOS_DATA = [
         name: "Caju",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "200g",
       },
       {
@@ -218,7 +218,7 @@ const PRODUTOS_DATA = [
         name: "Manga",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero a corrupti quo sit voluptate ipsum mollitia possimus quod distinctio velit soluta unde vitae fugiat, ex fugit exercitationem laboriosam accusamus.",
-        price: 325,
+        price: 225,
         quantity: "200g",
       },
       {

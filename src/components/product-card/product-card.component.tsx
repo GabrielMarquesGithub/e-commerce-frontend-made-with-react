@@ -1,26 +1,32 @@
 import { ImgProduct, ProductCardContainer, DivPrice, TextContainer, DivQuantity, DivName } from "./product-card.style";
-import { ProductsType } from "../../routes/products/products.component";
+import { useNavigate } from "react-router-dom";
+import { ProductsObjType } from "../../routes/products/products.component";
 
-const ProductCard = ({ product }: { product: ProductsType }) => {
-  const { title } = product;
-  const { price, imgUrl } = product.items[0];
+const ProductCard = ({ product, title }: { product: ProductsObjType[]; title: string }) => {
+  const { imgUrl, quantity, price } = product[0];
+
+  //navigate deve ser instanciado
+  const navigate = useNavigate();
+  //o navigate instanciado recebe o path
+  const onNavigateHandler = (route: string) => navigate(route);
+
   return (
-    <ProductCardContainer>
-      <ImgProduct src={imgUrl} />
-      <TextContainer>
-        <DivQuantity>
-          {product.items.length < 10 ? (
-            product.items.map((item) => <span>{item.quantity}</span>)
-          ) : (
-            <span>{product.items[0].quantity}</span>
-          )}
-        </DivQuantity>
-        <DivName>{title}</DivName>
-        <DivPrice>
-          <span>${price}</span>
-        </DivPrice>
-      </TextContainer>
-    </ProductCardContainer>
+    <>
+      {imgUrl && (
+        <ProductCardContainer onClick={() => onNavigateHandler(title)}>
+          <ImgProduct src={imgUrl} />
+          <TextContainer>
+            <DivQuantity>
+              {product.length < 10 ? product.map((item) => <span>{item.quantity}</span>) : <span>{quantity}</span>}
+            </DivQuantity>
+            <DivName>{title}</DivName>
+            <DivPrice>
+              <span>R${price}</span>
+            </DivPrice>
+          </TextContainer>
+        </ProductCardContainer>
+      )}
+    </>
   );
 };
 export default ProductCard;

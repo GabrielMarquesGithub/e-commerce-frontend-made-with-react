@@ -1,5 +1,16 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { color } from "../../assets/color";
+
+const animationToApear = keyframes`
+  0%{
+    opacity: 0.9;
+    right: 50px;
+  }
+  100%{
+    opacity: 1;
+    right: 0px;
+  }
+`;
 
 export const HomeContainer = styled.div`
   margin: 0 auto;
@@ -10,6 +21,7 @@ export const HomeContainer = styled.div`
   gap: 20px;
 `;
 export const HomeItemMain = styled.div`
+  animation: ${animationToApear} 500ms ease-in-out;
   cursor: pointer;
   position: relative;
   grid-row: 1/3;

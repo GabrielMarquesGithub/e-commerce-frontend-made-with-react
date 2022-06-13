@@ -1,6 +1,16 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { color } from "../../assets/color";
 
+const animationToApear = keyframes`
+  0%{
+    opacity: 0.9;
+    left: 50px;
+  }
+  100%{
+    opacity: 1;
+    left: 0px;
+  }
+`;
 export const TextContainerLeft = styled.div`
   left: -150px;
   transition: left 500ms ease-in-out;
@@ -21,6 +31,7 @@ export const TextContainerRight = styled.div`
   }
 `;
 export const HomeItemAsideContainer = styled.div`
+  animation: ${animationToApear} 500ms ease-in-out;
   cursor: pointer;
   display: flex;
   justify-content: space-between;

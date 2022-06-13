@@ -40,6 +40,7 @@ export const LogoStyle = styled(TitleNav)`
 `;
 // Estrutura para Nav
 export const NavContainer = styled.div`
+  box-shadow: 2px 2px 10px black;
   display: block;
   height: 16vh;
   padding: 20px;

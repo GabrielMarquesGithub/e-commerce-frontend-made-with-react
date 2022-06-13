@@ -1,14 +1,23 @@
 //import style components
-import { ProductsIndexContainer } from "./products-index.style";
+import { ProductsIndexContainer, LoadingContainer, Loading } from "./products-index.style";
 //import types
-import { ProductsType } from "../products/products.component";
+import { ProductsObjKeyType } from "../products/products.component";
 import ProductCard from "../../components/product-card/product-card.component";
 
-const ProductsIndex = ({ products }: { products: ProductsType[] | null }) => {
+const ProductsIndex = ({ products }: { products: ProductsObjKeyType }) => {
+  const condition = products[Object.keys(products)[0]];
   return (
-    <ProductsIndexContainer>
-      {products && products.map((product) => <ProductCard key={product.title} product={product} />)}
-    </ProductsIndexContainer>
+    <>
+      <ProductsIndexContainer>
+        {condition[0].imgUrl &&
+          Object.keys(products).map((title) => <ProductCard key={title} product={products[title]} title={title} />)}
+      </ProductsIndexContainer>
+      {!condition[0].imgUrl && (
+        <LoadingContainer>
+          <Loading>Loading</Loading>
+        </LoadingContainer>
+      )}
+    </>
   );
 };
 export default ProductsIndex;

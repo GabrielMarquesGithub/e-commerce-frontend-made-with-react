@@ -1,40 +1,22 @@
 import styled, { keyframes } from "styled-components";
 import { color } from "../../assets/color";
 
-const animationToApear = keyframes`
+const animationToAppear = () => keyframes`
   0%{
-    opacity: 0.9;
-    top: 50px;
+    opacity: 0;
+    bottom: 30px; 
+  }
+  50%{
+    opacity: 0.8;
+    bottom: -15px; 
   }
   100%{
     opacity: 1;
-    top: 0px;
+    bottom: 0px;
   }
 `;
 export const ImgProduct = styled.img`
   width: 100%;
-`;
-export const DivQuantity = styled.div`
-  position: absolute;
-  top: -260px;
-  left: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  span {
-    box-shadow: 1px 1px 5px black;
-    transition: opacity 300ms ease-in-out;
-    opacity: 0;
-    display: block;
-    border: 3px solid ${color.verdeEscuro};
-    border-radius: 20px;
-    padding: 15px 5px;
-    background-color: ${color.dark};
-  }
-  span:hover {
-    color: ${color.verdeClaro};
-    transform: scale(1.1);
-  }
 `;
 export const DivName = styled.div`
   bottom: 0;
@@ -68,10 +50,14 @@ export const TextContainer = styled.div`
   transition: top 300ms ease-in-out;
   color: ${color.verde};
 `;
-export const ProductCardContainer = styled.div`
+interface Props {
+  scale: number;
+}
+export const LongProductSelectedItemContainer = styled.div<Props>`
+  box-shadow: 1px 1px 10px black;
   position: relative;
-  animation: ${animationToApear} 500ms ease-in-out;
-  box-shadow: 2px 2px 10px black;
+  animation: ${animationToAppear} 500ms ease-in-out forwards;
+  transform: scale(${(props) => props.scale});
   background-color: ${color.dark};
   border-radius: 30px;
   cursor: pointer;
@@ -80,7 +66,6 @@ export const ProductCardContainer = styled.div`
   overflow: hidden;
   transition: transform 300ms ease-in-out;
   &:hover {
-    transform: scale(1.05);
     transition: transform 300ms ease-in-out;
     ${TextContainer} {
       transition: top 300ms ease-in-out;
@@ -96,13 +81,6 @@ export const ProductCardContainer = styled.div`
     ${DivName} {
       transition: bottom 300ms ease-in-out;
       bottom: -10px;
-    }
-    ${DivQuantity} {
-      color: ${color.verde};
-      span {
-        transition: opacity 500ms ease-in-out;
-        opacity: 1;
-      }
     }
   }
 `;
